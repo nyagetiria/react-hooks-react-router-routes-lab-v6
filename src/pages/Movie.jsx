@@ -24,7 +24,6 @@ export default function Movie() {
 
   return (
     <>
-      <NavBar />
       <h1>{movie.title}</h1>
       <p>{movie.time}</p>
       {movie.genres.map((genre) => (
